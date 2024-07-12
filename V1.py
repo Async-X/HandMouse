@@ -73,6 +73,9 @@ while True:
  
 
             pyautogui.dragTo(wScr - clocX, clocY, button='left')
+
+        if fingers[1] == 0 and fingers[2] == 0:
+            pyautogui.click()
     
     
    
